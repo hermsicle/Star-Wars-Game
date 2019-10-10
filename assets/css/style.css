@@ -1,23 +1,61 @@
+.heading {
+    font-size: 70px;
+    text-align: center;
+    color: whitesmoke;
+}
 .character-list{
-    vertical-align: center;
+    margin-left: 100px;
 }
 #obi-wan {
     height: 200px;
     width: 200px;
+    padding: 10px;
+    border: 10px solid black;
 }
 #luke {
     height: 200px;
     width: 200px;
+    padding: 10px;
+    border: 10px solid black;
+
 }
 #sidious {
     height: 200px;
     width: 200px;
+    padding: 10px;
+    border: 10px solid black;
 }
 #maul {
     height: 200px;
     width: 200px;
+    padding: 10px;
+    border: 10px solid black;
+}
+.your-character {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.enemies{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.fight-section {
+    margin-left: 100px;
+}
+button {
+    margin-left: 100px;
+}
+.defender {
+    margin-left: 100px;
+}
+h2 {
+    font-size: 30px;
+    color: whitesmoke;
 }
 
+body {
+    background-image: url(../images/jedi_vs_sith.png)
+}
 
 
 
