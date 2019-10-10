@@ -1,3 +1,22 @@
+.character-list{
+    vertical-align: center;
+}
+#obi-wan {
+    height: 200px;
+    width: 200px;
+}
+#luke {
+    height: 200px;
+    width: 200px;
+}
+#sidious {
+    height: 200px;
+    width: 200px;
+}
+#maul {
+    height: 200px;
+    width: 200px;
+}
 
 
 
