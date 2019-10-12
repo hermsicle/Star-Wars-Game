@@ -32,22 +32,51 @@ $(document).ready(function () {
     $('.obi-wan').on('click', function () {
         $('.obi-wan').remove();
         $('.your-character').append('<img id="obi-wan" src="./assets/images/obiWan.png">');
+        $('.luke').remove();
+        $('.enemies').append('<img id="luke" src="assets/images/luke.png">');
+        $('.sidious').remove();
+        $('.enemies').append('<img id="sidious" src="./assets/images/sidious.png">');
+        $('.maul').remove();
+        $('.enemies').append('<img id="maul" src="assets/images/maul.png">');
     });
 
     $('.luke').on('click', function () {
         $('.luke').remove();
         $('.your-character').append('<img id="luke" src="assets/images/luke.png">');
+        $('.obi-wan').remove();
+        $('.enemies').append('<img id="obi-wan" src="./assets/images/obiWan.png">');
+        $('.sidious').remove();
+        $('.enemies').append('<img id="sidious" src="./assets/images/sidious.png">');
+        $('.maul').remove();
+        $('.enemies').append('<img id="maul" src="assets/images/maul.png">');
+        
     });
 
     $('.sidious').on('click', function () {
         $('.sidious').remove();
         $('.your-character').append('<img id="sidious" src="./assets/images/sidious.png">');
+        $('.obi-wan').remove();
+        $('.enemies').append('<img id="obi-wan" src="./assets/images/obiWan.png">');
+        $('.luke').remove();
+        $('.enemies').append('<img id="luke" src="assets/images/luke.png">');
+        $('.maul').remove();
+        $('.enemies').append('<img id="maul" src="assets/images/maul.png">');
     });
 
     $('.maul').on('click', function () {
         $('.maul').remove();
         $('.your-character').append('<img id="maul" src="assets/images/maul.png">');
+        $('.obi-wan').remove();
+        $('.enemies').append('<img id="obi-wan" src="./assets/images/obiWan.png">');
+        $('.luke').remove();
+        $('.enemies').append('<img id="luke" src="assets/images/luke.png">');
+        $('.sidious').remove();
+        $('.enemies').append('<img id="sidious" src="./assets/images/sidious.png">');
     });
+
+
+
+
 
 
 
