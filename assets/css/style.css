@@ -6,30 +6,26 @@
 .character-list{
     margin-left: 100px;
 }
+
 #obi-wan {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     padding: 10px;
-    border: 10px solid black;
 }
 #luke {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     padding: 10px;
-    border: 10px solid black;
-
 }
 #sidious {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     padding: 10px;
-    border: 10px solid black;
 }
 #maul {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     padding: 10px;
-    border: 10px solid black;
 }
 .your-character {
     margin-left: 100px;
@@ -49,7 +45,7 @@ button {
     margin-left: 100px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: whitesmoke;
 }
 
